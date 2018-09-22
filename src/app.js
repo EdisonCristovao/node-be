@@ -20,6 +20,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
 app.use('/', indexRoute);
-app.use('/product', productRoute);
+app.use('/products', productRoute);
 
 module.exports = app;
